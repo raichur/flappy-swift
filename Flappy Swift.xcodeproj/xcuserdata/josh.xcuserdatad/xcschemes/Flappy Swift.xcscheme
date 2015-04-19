@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "032D77D81ADECAA400A1D5AF"
-               BuildableName = "Tinder.app"
-               BlueprintName = "Tinder"
-               ReferencedContainer = "container:Tinder.xcodeproj">
+               BlueprintIdentifier = "03600EEE1AE3BEB300E6EDEC"
+               BuildableName = "Flappy Swift.app"
+               BlueprintName = "Flappy Swift"
+               ReferencedContainer = "container:Flappy Swift.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -28,10 +28,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "032D77ED1ADECAB000A1D5AF"
-               BuildableName = "TinderTests.xctest"
-               BlueprintName = "TinderTests"
-               ReferencedContainer = "container:Tinder.xcodeproj">
+               BlueprintIdentifier = "03600F071AE3BEB400E6EDEC"
+               BuildableName = "Flappy SwiftTests.xctest"
+               BlueprintName = "Flappy SwiftTests"
+               ReferencedContainer = "container:Flappy Swift.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -46,20 +46,20 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "032D77ED1ADECAB000A1D5AF"
-               BuildableName = "TinderTests.xctest"
-               BlueprintName = "TinderTests"
-               ReferencedContainer = "container:Tinder.xcodeproj">
+               BlueprintIdentifier = "03600F071AE3BEB400E6EDEC"
+               BuildableName = "Flappy SwiftTests.xctest"
+               BlueprintName = "Flappy SwiftTests"
+               ReferencedContainer = "container:Flappy Swift.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "032D77D81ADECAA400A1D5AF"
-            BuildableName = "Tinder.app"
-            BlueprintName = "Tinder"
-            ReferencedContainer = "container:Tinder.xcodeproj">
+            BlueprintIdentifier = "03600EEE1AE3BEB300E6EDEC"
+            BuildableName = "Flappy Swift.app"
+            BlueprintName = "Flappy Swift"
+            ReferencedContainer = "container:Flappy Swift.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -76,10 +76,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "032D77D81ADECAA400A1D5AF"
-            BuildableName = "Tinder.app"
-            BlueprintName = "Tinder"
-            ReferencedContainer = "container:Tinder.xcodeproj">
+            BlueprintIdentifier = "03600EEE1AE3BEB300E6EDEC"
+            BuildableName = "Flappy Swift.app"
+            BlueprintName = "Flappy Swift"
+            ReferencedContainer = "container:Flappy Swift.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,10 +95,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "032D77D81ADECAA400A1D5AF"
-            BuildableName = "Tinder.app"
-            BlueprintName = "Tinder"
-            ReferencedContainer = "container:Tinder.xcodeproj">
+            BlueprintIdentifier = "03600EEE1AE3BEB300E6EDEC"
+            BuildableName = "Flappy Swift.app"
+            BlueprintName = "Flappy Swift"
+            ReferencedContainer = "container:Flappy Swift.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

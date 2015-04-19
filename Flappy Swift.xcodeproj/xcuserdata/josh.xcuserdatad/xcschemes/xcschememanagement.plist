@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Tinder.xcscheme</key>
+		<key>Flappy Swift.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,12 +12,12 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>032D77D81ADECAA400A1D5AF</key>
+		<key>03600EEE1AE3BEB300E6EDEC</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>032D77ED1ADECAB000A1D5AF</key>
+		<key>03600F071AE3BEB400E6EDEC</key>
 		<dict>
 			<key>primary</key>
 			<true/>
