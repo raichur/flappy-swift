@@ -21,15 +21,22 @@ class GameScene: SKScene {
         var animation = SKAction.animateWithTextures([birdTexture, birdTexture2], timePerFrame: 0.1)
         var makeBirdFlap = SKAction.repeatActionForever(animation)
         
+        bg = SKSpriteNode(texture: backgroundTexture)
+        bg.position = CGPoint(x: CGRectGetMidX(self.frame), y: CGRectGetMidY(self.frame))
+        bg.size.height = self.frame.height
+        
+        var moveBg = SKAction.moveByX(-900, y: 0, duration: 9)
+        var replaceBg = SKAction.moveByX(900, y: 0, duration: 0)
+        var moveBgForever = SKAction.repeatActionForever(SKAction.sequence([moveBg, replaceBg]))
+        bg.runAction(moveBgForever)
+        
+        self.addChild(bg)
+        
         bird = SKSpriteNode(texture: birdTexture)
         bird.position = CGPoint(x: CGRectGetMidX(self.frame), y: CGRectGetMidY(self.frame))
         bird.runAction(makeBirdFlap)
         
-        bg = SKSpriteNode(texture: backgroundTexture)
-        bg.position = CGPoint(x: CGRectGetMidX(self.frame), y: CGRectGetMidY(self.frame))
-        
         self.addChild(bird)
-        self.addChild(bg)
         
     }
     
