@@ -9,7 +9,17 @@
 import SpriteKit
 
 class GameScene: SKScene {
+    
+    var bird = SKSpriteNode()
+    
     override func didMoveToView(view: SKView) {
+        
+        var birdTexture = SKTexture(imageNamed: "flappy1.png")
+        bird = SKSpriteNode(texture: birdTexture)
+        
+        bird.position = CGPoint(x: CGRectGetMidX(self.frame), y: CGRectGetMidY(self.frame))
+        
+        self.addChild(bird)
         
     }
     
